@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
+.user-img {
+  width: 50px;
+  height: 50px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+header nav ul li {
+  font-size: 30px;
+}
+
+.main-img {
+  width: 300px;
+}
+
+section.main {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: row;
+}
+@media screen and (max-width: 500px) {
+  section.main {
+    flex-direction: column;
+  }
+}
+section.main img {
+  flex: 0.5;
+}
+section.main div {
+  flex: 0.5;
+  padding: 16px;
+}
+section.main div h4 {
+  text-align: center;
+  padding-bottom: 12px;
+}
+section.main div span {
+  text-align: center;
+}
+
+footer {
+  height: auto;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+footer .red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer .blue {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer .green {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+body {
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

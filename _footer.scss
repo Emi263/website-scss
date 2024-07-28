@@ -1,0 +1,22 @@
+footer {
+  height: auto;
+  display: flex;
+  // flex-wrap: wrap;
+  @include space-between;
+  padding-top: 20px;
+
+  .red {
+    background-color: red;
+    @include box;
+  }
+  .blue {
+    background-color: blue;
+
+    @include box;
+  }
+
+  .green {
+    background-color: green;
+    @include box;
+  }
+}

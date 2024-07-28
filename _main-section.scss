@@ -1,0 +1,28 @@
+.main-img {
+  width: 300px;
+}
+
+section.main {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: row;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+
+  img {
+    flex: 0.5;
+  }
+  div {
+    flex: 0.5;
+    padding: 16px;
+    h4 {
+      text-align: center;
+      padding-bottom: 12px;
+    }
+    span {
+      text-align: center;
+    }
+  }
+}
